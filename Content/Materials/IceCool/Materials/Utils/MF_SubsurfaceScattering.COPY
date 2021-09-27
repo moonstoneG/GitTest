@@ -1,0 +1,554 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_SubsurfaceScattering"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCameraVectorWS Name="MaterialExpressionCameraVectorWS_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCameraVectorWS Name="MaterialExpressionCameraVectorWS_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPixelNormalWS Name="MaterialExpressionPixelNormalWS_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPixelNormalWS Name="MaterialExpressionPixelNormalWS_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReflectionVectorWS Name="MaterialExpressionReflectionVectorWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSaturate Name="MaterialExpressionSaturate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_1"')
+      MaterialExpressionEditorX=1472
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=546C81844CD0C38EE1E77B981554A093
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_2"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_9"')
+      MaterialExpressionEditorX=2432
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=B974021E4668DCE791E4B2A1C3C2A934
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_7"')
+      B=(Expression=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_3"')
+      MaterialExpressionEditorX=3104
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=D5A336524F275280088EE1AC883BE0CE
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_5"
+      A=(Expression=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_2"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_12"')
+      MaterialExpressionEditorX=3296
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=1A924BA842167805DEE5AAA4882261AC
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionCameraVectorWS_1"
+      MaterialExpressionEditorX=1536
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=54DB991242A76518AADFBD94C6794354
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionCameraVectorWS_2"
+      MaterialExpressionEditorX=2400
+      MaterialExpressionEditorY=1024
+      MaterialExpressionGuid=54DB991242A76518AADFBD94C6794354
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.500000
+      MaterialExpressionEditorX=944
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=1F15BD09454D5B0C4004F4943983FD42
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.200000
+      MaterialExpressionEditorX=1952
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=1F15BD09454D5B0C4004F4943983FD42
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=10.000000
+      MaterialExpressionEditorX=1920
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=1F15BD09454D5B0C4004F4943983FD42
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_7"
+      R=3.000000
+      MaterialExpressionEditorX=1888
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=1F15BD09454D5B0C4004F4943983FD42
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=5.000000
+      MaterialExpressionEditorX=2576
+      MaterialExpressionEditorY=1200
+      MaterialExpressionGuid=E395366B4C6E710BEBB838AA610965C6
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      Constant=(R=0.000000,G=0.040000,B=0.090000,A=0.000000)
+      MaterialExpressionEditorX=2928
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=B66377D945CE24BD56067697805BA426
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_4"
+      Constant=(R=0.030000,G=0.090000,B=0.080000,A=0.000000)
+      MaterialExpressionEditorX=2752
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=B66377D945CE24BD56067697805BA426
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_5"
+      Constant=(R=0.000000,G=0.000000,B=200.000000,A=0.000000)
+      MaterialExpressionEditorX=800
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=71AB460948E46D94C75E468C21DE30B1
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_0"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_6"')
+      B=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=1872
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=0345422A4F2C58877CB492A0EDD634DA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_1"
+      A=(Expression=MaterialExpressionCameraVectorWS'"MF_SubsurfaceScattering:MaterialExpressionCameraVectorWS_2"')
+      B=(Expression=MaterialExpressionPixelNormalWS'"MF_SubsurfaceScattering:MaterialExpressionPixelNormalWS_2"')
+      MaterialExpressionEditorX=2592
+      MaterialExpressionEditorY=1040
+      MaterialExpressionGuid=28127F3B482C96593F043CAC99F8F900
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_0"')
+      InputName="LTDistortion"
+      Id=E28ADA754A3D42F0B5F9BD94C46ED6F8
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=8
+      MaterialExpressionEditorX=1040
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_1"
+      Preview=(Expression=MaterialExpressionNormalize'"MF_SubsurfaceScattering:MaterialExpressionNormalize_1"')
+      InputName="L"
+      Id=55D7512C4C8212A65F6349831887A309
+      bUsePreviewValueAsDefault=True
+      SortPriority=-1
+      MaterialExpressionEditorX=1264
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_2"
+      Preview=(Expression=MaterialExpressionPixelNormalWS'"MF_SubsurfaceScattering:MaterialExpressionPixelNormalWS_1"')
+      InputName="N"
+      Id=B3113CF84B99C3FC0A44BFA865DD7B55
+      bUsePreviewValueAsDefault=True
+      MaterialExpressionEditorX=1104
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_4"
+      InputName="LTThickness "
+      Id=223851A04405C8645A650195AE6865D7
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=9
+      MaterialExpressionEditorX=2064
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_5"
+      Preview=(Expression=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_6"')
+      InputName="LTScale"
+      Id=C1658E1B461CA6C7C7F997AF1D2834BA
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=4
+      MaterialExpressionEditorX=2016
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_6"
+      Preview=(Expression=MaterialExpressionCameraVectorWS'"MF_SubsurfaceScattering:MaterialExpressionCameraVectorWS_1"')
+      InputName="V"
+      Id=66C7837F4D223EA7EF5A819E678880BD
+      bUsePreviewValueAsDefault=True
+      SortPriority=2
+      MaterialExpressionEditorX=1696
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_7"
+      Preview=(Expression=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_7"')
+      InputName="LTPower"
+      Id=1B3CB83D4F95D4CB744994B5A0D91696
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=3
+      MaterialExpressionEditorX=1968
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_9"
+      Preview=(Expression=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_5"')
+      InputName="LTAmbient"
+      Id=263E53D14B0D4C2B574658B0134B110B
+      InputType=FunctionInput_Scalar
+      bUsePreviewValueAsDefault=True
+      SortPriority=6
+      MaterialExpressionEditorX=2048
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=D98329E24F6C42AFCDB5C2801A2023CA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_1"
+      OutputName="Scattering"
+      A=(Expression=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_3"')
+      bLastPreviewed=True
+      Id=D9000D3944F30C40DADF57ABCBB24511
+      MaterialExpressionEditorX=2752
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=36CCD2244E3737575A554981AC733E0D
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Game/IceCool/Materials/Utils/MF_Fresnel.MF_Fresnel"'
+      FunctionInputs(0)=(ExpressionInputId=2F60963F4A4FC1B6DF02309A42F8249E,Input=(Expression=MaterialExpressionDotProduct'"MF_SubsurfaceScattering:MaterialExpressionDotProduct_1"',InputName="CosAngle"))
+      FunctionInputs(1)=(ExpressionInputId=E28ADA754A3D42F0B5F9BD94C46ED6F8,Input=(OutputIndex=-1,InputName="Color"))
+      FunctionInputs(2)=(ExpressionInputId=223851A04405C8645A650195AE6865D7,Input=(Expression=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_8"',InputName="Power"))
+      FunctionOutputs(0)=(ExpressionOutputId=3D34295C47662526EA3C4BA92FFFEBDE,Output=(OutputName="Default"))
+      FunctionOutputs(1)=(ExpressionOutputId=D9000D3944F30C40DADF57ABCBB24511,Output=(OutputName="Schlick fresnel"))
+      MaterialExpressionEditorX=2717
+      MaterialExpressionEditorY=1066
+      MaterialExpressionGuid=08B4616940CEE5BE5E516D943963750B
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      Outputs(0)=(OutputName="Default")
+      Outputs(1)=(OutputName="Schlick fresnel")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_0"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_2"')
+      MaterialExpressionEditorX=1312
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=63A26EFD4207AC9F67A1889B2A686F03
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionNormalize'"MF_SubsurfaceScattering:MaterialExpressionNormalize_0"')
+      ConstB=-1.000000
+      MaterialExpressionEditorX=1712
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=697453B94EEE7013D0410086A4E40660
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_12"
+      A=(Expression=MaterialExpressionTextureSample'"MF_SubsurfaceScattering:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"MF_SubsurfaceScattering:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=1)
+      MaterialExpressionEditorX=3005
+      MaterialExpressionEditorY=850
+      MaterialExpressionGuid=321794584651DDEC1B0F3F841B9B60EE
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionPower'"MF_SubsurfaceScattering:MaterialExpressionPower_1"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_5"')
+      MaterialExpressionEditorX=2304
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=7507B2CD44F2EC116CB2BCA96883B83D
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_4"')
+      MaterialExpressionEditorX=2624
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=4D0DC4BF46893403C4EA6AAECCE7035E
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionFunctionOutput'"MF_SubsurfaceScattering:MaterialExpressionFunctionOutput_1"')
+      B=(Expression=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_4"')
+      MaterialExpressionEditorX=2944
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=3ED915454CB4B37930C8808F1C94BB75
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=1552
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=6D9DA93F4D7B0FBAE5A51AB15B959B2B
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_1"
+      VectorInput=(Expression=MaterialExpressionSubtract'"MF_SubsurfaceScattering:MaterialExpressionSubtract_0"')
+      MaterialExpressionEditorX=1104
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=1EFDEDF14832152D36030DB3CC3165AA
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionPixelNormalWS_1"
+      MaterialExpressionEditorX=944
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=7E8500DC4DED9AA9C2515EAF908216B7
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionPixelNormalWS_2"
+      MaterialExpressionEditorX=2400
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=7E8500DC4DED9AA9C2515EAF908216B7
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_1"
+      Base=(Expression=MaterialExpressionSaturate'"MF_SubsurfaceScattering:MaterialExpressionSaturate_0"')
+      Exponent=(Expression=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_7"')
+      MaterialExpressionEditorX=2192
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=CFA102CA4B13386D898F82847C8E87E4
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionReflectionVectorWS_0"
+      MaterialExpressionEditorX=2560
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=29AB2DAB424DCC6A33A63B8939FBEF79
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionSaturate_0"
+      Input=(Expression=MaterialExpressionDotProduct'"MF_SubsurfaceScattering:MaterialExpressionDotProduct_0"')
+      MaterialExpressionEditorX=2032
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=623D9B0F402F8958F69C5FA4B117C351
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_5"')
+      B=(Expression=MaterialExpressionWorldPosition'"MF_SubsurfaceScattering:MaterialExpressionWorldPosition_1"')
+      MaterialExpressionEditorX=985
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=986B762E42890E705F413399F24F76C1
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionReflectionVectorWS'"MF_SubsurfaceScattering:MaterialExpressionReflectionVectorWS_0"')
+      Texture=TextureCube'"/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap"'
+      MaterialExpressionEditorX=2768
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=6D90082E45DEB57AF723A8AE4A5258ED
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_1"
+      MaterialExpressionEditorX=752
+      MaterialExpressionEditorY=736
+      MaterialExpressionGuid=9CEFFE3443E0B179BF6EB182F817B395
+      Function=MaterialFunction'"MF_SubsurfaceScattering"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+      PrimitiveType=TPT_Plane
+      bUserModifiedShape=True
+   End Object
+   Begin Object Name="Material_0"
+      EmissiveColor=(Expression=MaterialExpressionFunctionOutput'"MF_SubsurfaceScattering:MaterialExpressionFunctionOutput_1"')
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      Expressions(0)=MaterialExpressionFunctionOutput'"MF_SubsurfaceScattering:MaterialExpressionFunctionOutput_1"'
+      Expressions(1)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_4"'
+      Expressions(2)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_0"'
+      Expressions(3)=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_0"'
+      Expressions(4)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_1"'
+      Expressions(5)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_2"'
+      Expressions(6)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_5"'
+      Expressions(7)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_6"'
+      Expressions(8)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_7"'
+      Expressions(9)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_0"'
+      Expressions(10)=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_0"'
+      Expressions(11)=MaterialExpressionNormalize'"MF_SubsurfaceScattering:MaterialExpressionNormalize_0"'
+      Expressions(12)=MaterialExpressionDotProduct'"MF_SubsurfaceScattering:MaterialExpressionDotProduct_0"'
+      Expressions(13)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_1"'
+      Expressions(14)=MaterialExpressionSaturate'"MF_SubsurfaceScattering:MaterialExpressionSaturate_0"'
+      Expressions(15)=MaterialExpressionPower'"MF_SubsurfaceScattering:MaterialExpressionPower_1"'
+      Expressions(16)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_2"'
+      Expressions(17)=MaterialExpressionFunctionInput'"MF_SubsurfaceScattering:MaterialExpressionFunctionInput_9"'
+      Expressions(18)=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_1"'
+      Expressions(19)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_3"'
+      Expressions(20)=MaterialExpressionCameraVectorWS'"MF_SubsurfaceScattering:MaterialExpressionCameraVectorWS_1"'
+      Expressions(21)=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_5"'
+      Expressions(22)=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_6"'
+      Expressions(23)=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_7"'
+      Expressions(24)=MaterialExpressionPixelNormalWS'"MF_SubsurfaceScattering:MaterialExpressionPixelNormalWS_1"'
+      Expressions(25)=MaterialExpressionNormalize'"MF_SubsurfaceScattering:MaterialExpressionNormalize_1"'
+      Expressions(26)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_7"'
+      Expressions(27)=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_3"'
+      Expressions(28)=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_2"'
+      Expressions(29)=MaterialExpressionTextureSample'"MF_SubsurfaceScattering:MaterialExpressionTextureSample_0"'
+      Expressions(30)=MaterialExpressionAdd'"MF_SubsurfaceScattering:MaterialExpressionAdd_5"'
+      Expressions(31)=MaterialExpressionReflectionVectorWS'"MF_SubsurfaceScattering:MaterialExpressionReflectionVectorWS_0"'
+      Expressions(32)=MaterialExpressionMaterialFunctionCall'"MF_SubsurfaceScattering:MaterialExpressionMaterialFunctionCall_1"'
+      Expressions(33)=MaterialExpressionMultiply'"MF_SubsurfaceScattering:MaterialExpressionMultiply_12"'
+      Expressions(34)=MaterialExpressionCameraVectorWS'"MF_SubsurfaceScattering:MaterialExpressionCameraVectorWS_2"'
+      Expressions(35)=MaterialExpressionDotProduct'"MF_SubsurfaceScattering:MaterialExpressionDotProduct_1"'
+      Expressions(36)=MaterialExpressionConstant'"MF_SubsurfaceScattering:MaterialExpressionConstant_8"'
+      Expressions(37)=MaterialExpressionPixelNormalWS'"MF_SubsurfaceScattering:MaterialExpressionPixelNormalWS_2"'
+      Expressions(38)=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_4"'
+      Expressions(39)=MaterialExpressionConstant3Vector'"MF_SubsurfaceScattering:MaterialExpressionConstant3Vector_5"'
+      Expressions(40)=MaterialExpressionWorldPosition'"MF_SubsurfaceScattering:MaterialExpressionWorldPosition_1"'
+      Expressions(41)=MaterialExpressionSubtract'"MF_SubsurfaceScattering:MaterialExpressionSubtract_0"'
+      bCanMaskedBeAssumedOpaque=True
+      StateId=6E7DE468487ACAFB7AE8749842F49D7B
+      CachedExpressionData=(ReferencedTextures=(TextureCube'"/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap"'),FunctionInfos=((StateId=FDFF9B5743F3855F8D258FB0F8CC30AC,Function=MaterialFunction'"/Game/IceCool/Materials/Utils/MF_Fresnel.MF_Fresnel"')),QualityLevelsUsed=(False,False,False,False))
+      ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"MF_SubsurfaceScattering:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=233C602A47CAF5B1030E39AC548AD267
+   End Object
+   Description="Advanced subsurface scattering"
+   FunctionExpressions(0)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_1"'
+   FunctionExpressions(1)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_4"'
+   FunctionExpressions(2)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_0"'
+   FunctionExpressions(3)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   FunctionExpressions(4)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_1"'
+   FunctionExpressions(5)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_2"'
+   FunctionExpressions(6)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_5"'
+   FunctionExpressions(7)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_6"'
+   FunctionExpressions(8)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_7"'
+   FunctionExpressions(9)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   FunctionExpressions(10)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   FunctionExpressions(11)=MaterialExpressionNormalize'"MaterialExpressionNormalize_0"'
+   FunctionExpressions(12)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_0"'
+   FunctionExpressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   FunctionExpressions(14)=MaterialExpressionSaturate'"MaterialExpressionSaturate_0"'
+   FunctionExpressions(15)=MaterialExpressionPower'"MaterialExpressionPower_1"'
+   FunctionExpressions(16)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   FunctionExpressions(17)=MaterialExpressionFunctionInput'"MaterialExpressionFunctionInput_9"'
+   FunctionExpressions(18)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   FunctionExpressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   FunctionExpressions(20)=MaterialExpressionCameraVectorWS'"MaterialExpressionCameraVectorWS_1"'
+   FunctionExpressions(21)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   FunctionExpressions(22)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   FunctionExpressions(23)=MaterialExpressionConstant'"MaterialExpressionConstant_7"'
+   FunctionExpressions(24)=MaterialExpressionPixelNormalWS'"MaterialExpressionPixelNormalWS_1"'
+   FunctionExpressions(25)=MaterialExpressionNormalize'"MaterialExpressionNormalize_1"'
+   FunctionExpressions(26)=MaterialExpressionMultiply'"MaterialExpressionMultiply_7"'
+   FunctionExpressions(27)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"'
+   FunctionExpressions(28)=MaterialExpressionAdd'"MaterialExpressionAdd_2"'
+   FunctionExpressions(29)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   FunctionExpressions(30)=MaterialExpressionAdd'"MaterialExpressionAdd_5"'
+   FunctionExpressions(31)=MaterialExpressionReflectionVectorWS'"MaterialExpressionReflectionVectorWS_0"'
+   FunctionExpressions(32)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   FunctionExpressions(33)=MaterialExpressionMultiply'"MaterialExpressionMultiply_12"'
+   FunctionExpressions(34)=MaterialExpressionCameraVectorWS'"MaterialExpressionCameraVectorWS_2"'
+   FunctionExpressions(35)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_1"'
+   FunctionExpressions(36)=MaterialExpressionConstant'"MaterialExpressionConstant_8"'
+   FunctionExpressions(37)=MaterialExpressionPixelNormalWS'"MaterialExpressionPixelNormalWS_2"'
+   FunctionExpressions(38)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_4"'
+   FunctionExpressions(39)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_5"'
+   FunctionExpressions(40)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_1"'
+   FunctionExpressions(41)=MaterialExpressionSubtract'"MaterialExpressionSubtract_0"'
+   bExposeToLibrary=True
+   DependentFunctionExpressionCandidates(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

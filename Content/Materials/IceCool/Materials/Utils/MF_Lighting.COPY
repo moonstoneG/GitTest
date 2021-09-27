@@ -1,0 +1,501 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_Lighting"
+   Begin Object Class=/Script/Engine.MaterialExpressionActorPositionWS Name="MaterialExpressionActorPositionWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionActorPositionWS Name="MaterialExpressionActorPositionWS_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCollectionParameter Name="MaterialExpressionCollectionParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCollectionParameter Name="MaterialExpressionCollectionParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCollectionParameter Name="MaterialExpressionCollectionParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCollectionParameter Name="MaterialExpressionCollectionParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSaturate Name="MaterialExpressionSaturate_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_37"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+   End Object
+   Begin Object Name="MaterialExpressionActorPositionWS_0"
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=D68D2AE54E3A6542C071E299148BE9EE
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionActorPositionWS_3"
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=2016
+      MaterialExpressionGuid=D68D2AE54E3A6542C071E299148BE9EE
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionActorPositionWS'"MF_Lighting:MaterialExpressionActorPositionWS_3"')
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=1872
+      MaterialExpressionGuid=F1E3409F4B9DDE7CA5706B9E399C26C0
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_10"
+      A=(Expression=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_1"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_2"')
+      MaterialExpressionEditorX=338
+      MaterialExpressionEditorY=1077
+      MaterialExpressionGuid=C9BDD6DD49B711F3670D0582EE3EB8BB
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_5"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_13"')
+      B=(Expression=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_3"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=1840
+      MaterialExpressionGuid=F58AE6934532D8068D54E3A65A9839B7
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionCollectionParameter_0"
+      Collection=MaterialParameterCollection'"/Game/IceCool/Materials/Utils/PC_IceCool.PC_IceCool"'
+      ParameterName="DirLightChannel0"
+      ParameterId=D3AB433748384BC6CBD586B9EF61790A
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=DE04D56C4B987203304FFCB83819FE80
+      Function=MaterialFunction'"MF_Lighting"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionCollectionParameter_5"
+      Collection=MaterialParameterCollection'"/Game/IceCool/Materials/Utils/PC_IceCool.PC_IceCool"'
+      ParameterName="PointLightChannel0"
+      ParameterId=4AA7162343F4F2FD3ECB659E7A2E564C
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=1488
+      MaterialExpressionGuid=DE04D56C4B987203304FFCB83819FE80
+      Function=MaterialFunction'"MF_Lighting"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionCollectionParameter_6"
+      Collection=MaterialParameterCollection'"/Game/IceCool/Materials/Utils/PC_IceCool.PC_IceCool"'
+      ParameterName="PointLightChannel2"
+      ParameterId=FCD81AC247444DCE0026928B43B7C31E
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=1680
+      MaterialExpressionGuid=DE04D56C4B987203304FFCB83819FE80
+      Function=MaterialFunction'"MF_Lighting"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionCollectionParameter_7"
+      Collection=MaterialParameterCollection'"/Game/IceCool/Materials/Utils/PC_IceCool.PC_IceCool"'
+      ParameterName="PointLightChannel1"
+      ParameterId=0CD0A4C947562A7930F0609E12E94B7D
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=1584
+      MaterialExpressionGuid=DE04D56C4B987203304FFCB83819FE80
+      Function=MaterialFunction'"MF_Lighting"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionComment_4"
+      SizeX=2128
+      SizeY=1184
+      Text="Find light direction and attenuation"
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=928
+      MaterialExpressionGuid=BA771A3143A8BBE7A6E3D1AE93ED7235
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_0"')
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=1FDDB48A44B734F279B157BAC49DA515
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_1"
+      Input=(Expression=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_0"')
+      A=True
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=1232
+      MaterialExpressionGuid=1FDDB48A44B734F279B157BAC49DA515
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_3"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_14"')
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=1520
+      MaterialExpressionGuid=1FDDB48A44B734F279B157BAC49DA515
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_5"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_14"')
+      A=True
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=1584
+      MaterialExpressionGuid=8F5B74ED483D03ECEFBB11B1B171C49E
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_5"')
+      B=(Expression=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_7"')
+      MaterialExpressionEditorX=784
+      MaterialExpressionEditorY=1584
+      MaterialExpressionGuid=9CB546094376437C4DE52FB4C7F5E2E5
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_3"
+      A=(Expression=MaterialExpressionAdd'"MF_Lighting:MaterialExpressionAdd_10"')
+      B=(Expression=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_2"')
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=1088
+      MaterialExpressionGuid=9CB546094376437C4DE52FB4C7F5E2E5
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_1"
+      A=(Expression=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_3"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_1"')
+      MaterialExpressionEditorX=208
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=2875FA8E42FCEDD342BE6994B6373729
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_2"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_1"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_1"')
+      MaterialExpressionEditorX=336
+      MaterialExpressionEditorY=1168
+      MaterialExpressionGuid=5FE8DC664580384BE08AF69D83EFD523
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_7"
+      A=(Expression=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_1"')
+      B=(Expression=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_1"')
+      MaterialExpressionEditorX=672
+      MaterialExpressionEditorY=1504
+      MaterialExpressionGuid=3F75B3834FAD2F5C8FC68B83BCFA12D9
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      OutputName="Direction"
+      SortPriority=1
+      A=(Expression=MaterialExpressionNormalize'"MF_Lighting:MaterialExpressionNormalize_2"')
+      bLastPreviewed=True
+      Id=A172EBC6464BAB479452F7A7140D5FD7
+      MaterialExpressionEditorX=1216
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=8202E9754BDBB2E1788998BDA93247A7
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_1"
+      OutputName="Attenuation"
+      A=(Expression=MaterialExpressionSaturate'"MF_Lighting:MaterialExpressionSaturate_6"')
+      Id=A475B8264D6795648E63EC89F5A5311E
+      MaterialExpressionEditorX=1200
+      MaterialExpressionEditorY=1552
+      MaterialExpressionGuid=8202E9754BDBB2E1788998BDA93247A7
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_2"
+      VectorInput=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_0"')
+      MaterialExpressionEditorX=1072
+      MaterialExpressionEditorY=1328
+      MaterialExpressionGuid=1EFDEDF14832152D36030DB3CC3165AA
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionSaturate_6"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_37"')
+      MaterialExpressionEditorX=1088
+      MaterialExpressionEditorY=1552
+      MaterialExpressionGuid=C3A0BECF462B37A175EF4B8E801A13E1
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_1"')
+      B=(Expression=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_1"')
+      ParameterName="UseDirectionalLight"
+      ExpressionGUID=46803DA34DCA32C475C6C89E7469C333
+      Group="Lighting"
+      MaterialExpressionEditorX=896
+      MaterialExpressionEditorY=1312
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_1"
+      A=(Expression=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_0"')
+      B=(Expression=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ParameterName="UseChannel0"
+      ExpressionGUID=D10D64554FBAD26357C5EDA23EFFA8C5
+      Group="Lighting"
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_13"
+      A=(Expression=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionAdd'"MF_Lighting:MaterialExpressionAdd_0"')
+      ParameterName="UseLightWorldrSpace"
+      ExpressionGUID=9306BFCE4DB85AF8316BB381F6E4084B
+      Group="Lighting"
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=1792
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_14"
+      A=(Expression=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_5"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_15"')
+      ParameterName="UseChannel0"
+      ExpressionGUID=D4CA104C49AEDA7D85FF72820B2D3908
+      Group="Lighting"
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=1504
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_15"
+      A=(Expression=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_7"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_16"')
+      ParameterName="UseChannel1"
+      ExpressionGUID=E37AEF8B4D9660137275BCBC425B7B6A
+      Group="Lighting"
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=1616
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_16"
+      A=(Expression=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_6"')
+      B=(Expression=MaterialExpressionAppendVector'"MF_Lighting:MaterialExpressionAppendVector_5"')
+      ParameterName="UseChannel2"
+      ExpressionGUID=8FA8F660429EADB77078E78E8A1AC415
+      Group="Lighting"
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=1728
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_2"
+      A=(Expression=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_1"')
+      B=(Expression=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_2"',OutputIndex=4,Mask=1,MaskA=1)
+      ParameterName="UseChannel0"
+      ExpressionGUID=B10A751B4A35213EEB6AB7A47431A381
+      Group="Lighting"
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_37"
+      A=(Expression=MaterialExpressionDivide'"MF_Lighting:MaterialExpressionDivide_3"')
+      B=(Expression=MaterialExpressionDivide'"MF_Lighting:MaterialExpressionDivide_2"')
+      ParameterName="UseDirectionalLight"
+      ExpressionGUID=41A886E445EB495817D0A2BD427E0030
+      Group="Lighting"
+      MaterialExpressionEditorX=912
+      MaterialExpressionEditorY=1536
+      MaterialExpressionGuid=15F7546A4AA30D49EFCAFE8CEAEF6A04
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_1"
+      A=(Expression=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_3"')
+      B=(Expression=MaterialExpressionWorldPosition'"MF_Lighting:MaterialExpressionWorldPosition_0"')
+      MaterialExpressionEditorX=544
+      MaterialExpressionEditorY=1520
+      MaterialExpressionGuid=D68C612C40303EF7DDFCEB8AF4CE8B2E
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_3"
+      A=(Expression=MaterialExpressionWorldPosition'"MF_Lighting:MaterialExpressionWorldPosition_2"')
+      B=(Expression=MaterialExpressionActorPositionWS'"MF_Lighting:MaterialExpressionActorPositionWS_0"')
+      MaterialExpressionEditorX=80
+      MaterialExpressionEditorY=1040
+      MaterialExpressionGuid=66F39B774B188A5BFDD648989C652F5D
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.000000,G=0.000000,B=700.000000,A=80000.000000)
+      ParameterName="LightDirection"
+      ExpressionGUID=26F95D7A4FB3FDD7B842958FEA163B5E
+      Group="Lighting"
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=1216
+      MaterialExpressionGuid=089543B346DF5E593D9850952980C061
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=200.000000,G=200.000000,B=200.000000,A=1.000000)
+      ParameterName="LightLocation"
+      ExpressionGUID=4F5517BC4853293FE52664B2463B753D
+      Group="Lighting"
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=1792
+      MaterialExpressionGuid=089543B346DF5E593D9850952980C061
+      Function=MaterialFunction'"MF_Lighting"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=1664
+      MaterialExpressionGuid=EEEB48F045FC0EEC56B4D99FC2A52A73
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_2"
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=EEEB48F045FC0EEC56B4D99FC2A52A73
+      Function=MaterialFunction'"MF_Lighting"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      EmissiveColor=(Expression=MaterialExpressionFunctionOutput'"MF_Lighting:MaterialExpressionFunctionOutput_1"')
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      Expressions(0)=MaterialExpressionNormalize'"MF_Lighting:MaterialExpressionNormalize_2"'
+      Expressions(1)=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_1"'
+      Expressions(2)=MaterialExpressionWorldPosition'"MF_Lighting:MaterialExpressionWorldPosition_2"'
+      Expressions(3)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_0"'
+      Expressions(4)=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_5"'
+      Expressions(5)=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_2"'
+      Expressions(6)=MaterialExpressionVectorParameter'"MF_Lighting:MaterialExpressionVectorParameter_3"'
+      Expressions(7)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_13"'
+      Expressions(8)=MaterialExpressionAdd'"MF_Lighting:MaterialExpressionAdd_0"'
+      Expressions(9)=MaterialExpressionActorPositionWS'"MF_Lighting:MaterialExpressionActorPositionWS_3"'
+      Expressions(10)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_14"'
+      Expressions(11)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_15"'
+      Expressions(12)=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_6"'
+      Expressions(13)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_16"'
+      Expressions(14)=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_7"'
+      Expressions(15)=MaterialExpressionDivide'"MF_Lighting:MaterialExpressionDivide_2"'
+      Expressions(16)=MaterialExpressionAppendVector'"MF_Lighting:MaterialExpressionAppendVector_5"'
+      Expressions(17)=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_3"'
+      Expressions(18)=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_5"'
+      Expressions(19)=MaterialExpressionSaturate'"MF_Lighting:MaterialExpressionSaturate_6"'
+      Expressions(20)=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_7"'
+      Expressions(21)=MaterialExpressionFunctionOutput'"MF_Lighting:MaterialExpressionFunctionOutput_0"'
+      Expressions(22)=MaterialExpressionFunctionOutput'"MF_Lighting:MaterialExpressionFunctionOutput_1"'
+      Expressions(23)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_37"'
+      Expressions(24)=MaterialExpressionSubtract'"MF_Lighting:MaterialExpressionSubtract_3"'
+      Expressions(25)=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_1"'
+      Expressions(26)=MaterialExpressionDivide'"MF_Lighting:MaterialExpressionDivide_3"'
+      Expressions(27)=MaterialExpressionDotProduct'"MF_Lighting:MaterialExpressionDotProduct_2"'
+      Expressions(28)=MaterialExpressionAdd'"MF_Lighting:MaterialExpressionAdd_10"'
+      Expressions(29)=MaterialExpressionActorPositionWS'"MF_Lighting:MaterialExpressionActorPositionWS_0"'
+      Expressions(30)=MaterialExpressionWorldPosition'"MF_Lighting:MaterialExpressionWorldPosition_0"'
+      Expressions(31)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_1"'
+      Expressions(32)=MaterialExpressionCollectionParameter'"MF_Lighting:MaterialExpressionCollectionParameter_0"'
+      Expressions(33)=MaterialExpressionStaticSwitchParameter'"MF_Lighting:MaterialExpressionStaticSwitchParameter_2"'
+      Expressions(34)=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_0"'
+      Expressions(35)=MaterialExpressionComponentMask'"MF_Lighting:MaterialExpressionComponentMask_1"'
+      bCanMaskedBeAssumedOpaque=True
+      StateId=588228FC4E23736753C97FBA3D276199
+      CachedExpressionData=(Parameters=(RuntimeEntries[1]=(NameHashes=(9463397868178606442,18268341833904569597),ParameterInfos=((Name="LightLocation"),(Name="LightDirection")),ExpressionGuids=(4F5517BC4853293FE52664B2463B753D,26F95D7A4FB3FDD7B842958FEA163B5E),Overrides=(False,False)),VectorValues=((R=200.000000,G=200.000000,B=200.000000,A=1.000000),(R=0.000000,G=0.000000,B=700.000000,A=80000.000000)),EditorOnlyEntries[0]=(NameHashes=(235509875339579708,8923338854606548911,10326948930311032966,11702962009828591845,17602838669743815427),ParameterInfos=((Name="UseChannel1"),(Name="UseLightWorldrSpace"),(Name="UseChannel0"),(Name="UseChannel2"),(Name="UseDirectionalLight")),ExpressionGuids=(E37AEF8B4D9660137275BCBC425B7B6A,9306BFCE4DB85AF8316BB381F6E4084B,D4CA104C49AEDA7D85FF72820B2D3908,8FA8F660429EADB77078E78E8A1AC415,46803DA34DCA32C475C6C89E7469C333),Overrides=(False,False,False,False,False)),StaticSwitchValues=(False,False,False,False,False),VectorChannelNameValues=((),()),VectorUsedAsChannelMaskValues=(False,False)),ParameterCollectionInfos=((StateId=7A1D08324D623F34847EA8B2389EB2BB,ParameterCollection=MaterialParameterCollection'"/Game/IceCool/Materials/Utils/PC_IceCool.PC_IceCool"')),QualityLevelsUsed=(False,False,False,False))
+      ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"MF_Lighting:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=A41F5B7D4ABDD5C14042CBB4B344B097
+   End Object
+   Description="Calculates lght diection and attenuation."
+   FunctionExpressions(0)=MaterialExpressionNormalize'"MaterialExpressionNormalize_2"'
+   FunctionExpressions(1)=MaterialExpressionSubtract'"MaterialExpressionSubtract_1"'
+   FunctionExpressions(2)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_2"'
+   FunctionExpressions(3)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"'
+   FunctionExpressions(4)=MaterialExpressionCollectionParameter'"MaterialExpressionCollectionParameter_5"'
+   FunctionExpressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   FunctionExpressions(6)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_3"'
+   FunctionExpressions(7)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_13"'
+   FunctionExpressions(8)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   FunctionExpressions(9)=MaterialExpressionActorPositionWS'"MaterialExpressionActorPositionWS_3"'
+   FunctionExpressions(10)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_14"'
+   FunctionExpressions(11)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_15"'
+   FunctionExpressions(12)=MaterialExpressionCollectionParameter'"MaterialExpressionCollectionParameter_6"'
+   FunctionExpressions(13)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_16"'
+   FunctionExpressions(14)=MaterialExpressionCollectionParameter'"MaterialExpressionCollectionParameter_7"'
+   FunctionExpressions(15)=MaterialExpressionDivide'"MaterialExpressionDivide_2"'
+   FunctionExpressions(16)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_5"'
+   FunctionExpressions(17)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_3"'
+   FunctionExpressions(18)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_5"'
+   FunctionExpressions(19)=MaterialExpressionSaturate'"MaterialExpressionSaturate_6"'
+   FunctionExpressions(20)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_7"'
+   FunctionExpressions(21)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_0"'
+   FunctionExpressions(22)=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_1"'
+   FunctionExpressions(23)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_37"'
+   FunctionExpressions(24)=MaterialExpressionSubtract'"MaterialExpressionSubtract_3"'
+   FunctionExpressions(25)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_1"'
+   FunctionExpressions(26)=MaterialExpressionDivide'"MaterialExpressionDivide_3"'
+   FunctionExpressions(27)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_2"'
+   FunctionExpressions(28)=MaterialExpressionAdd'"MaterialExpressionAdd_10"'
+   FunctionExpressions(29)=MaterialExpressionActorPositionWS'"MaterialExpressionActorPositionWS_0"'
+   FunctionExpressions(30)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_0"'
+   FunctionExpressions(31)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_1"'
+   FunctionExpressions(32)=MaterialExpressionCollectionParameter'"MaterialExpressionCollectionParameter_0"'
+   FunctionExpressions(33)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_2"'
+   FunctionExpressions(34)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_0"'
+   FunctionExpressions(35)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_1"'
+   bExposeToLibrary=True
+   FunctionEditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_4"'
+   CombinedOutputTypes=15
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object
